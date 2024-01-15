@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+nav{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    justify-content: space-between;
+    color: brown;
+    margin: 20px;
+    font-size: larger;
+    text-decoration: none;
+   
+   
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    text-shadow: 2px 6px 8px bisque;
+}
+video{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+}
+h1:hover{
+    color: beige;
+    text-shadow: 2px 6px 8px bisque;
+}
+span{
+    color: brown;
+    font-weight: bolder;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+#home::before{
+    content:"" ;
+    background-image:url(https://media.istockphoto.com/id/1311977351/photo/focused-on-success-and-growth.jpg?s=2048x2048&w=is&k=20&c=PKSA0QTncLPLjNX3D3W2UCIHlyuVSg_hv3zEwY61d3U=) ;
+    height:700px;
+    width:100%;
+    background-size:cover;
+    
+
+}
+.main{
+    border: 2px inset black;
+    padding: 50px;
+    display: flex;
+    position: absolute;
+    top: 850px;
+    left: 50%;
+}
+.pic{
+    display: flex;
+}
+.pic img{
+    width: 300px;
+}
+   
+.pic p{
+    text-align: justify;
+    margin: 10px;
+    height: 20px;
+}
+    
+.pic h4{
+    color: navy;
+    font-size: larger;
+    font-style: italic;
+    text-align: center;
+}
+h3{
+    color: darkmagenta;
+    text-align: center;
+    margin: 10px;
+    text-shadow: 4px 5px  8px;
+}
+h4{
+    font-style: italic;
+    color: blue;
+    text-align: center;
+}
+.gallery{
+    justify-content: space-between;
+    box-shadow: 3px 4px 5px 8px;
+}
+.gallery img{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    margin-bottom: 10px;
+}
+.gallery img:hover{
+    box-shadow: 3px 4px 5px 8px;
+}
+.row{
+    display: flex;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    background: linear-gradient(to top,rgb(120, 150, 189)50%,rgb(56, 132, 114) );
+    background-size: 100% 200%;
+    transition: all 0.6s;
+}
+.box :hover{
+    background-position: right bottom;
+    border: 4px ridge rgb(188, 18, 18);
+    box-shadow: 3px 4px 8px;
+}
+.box img{
+    width: 100%;
+    border-radius: 30%;
+}
+.box h5{
+    color:black;
+    margin: 5px;
+    text-align: center;
+    text-shadow: 4px 5px 6px;
+}
+.box p{
+    text-align: justify;
+    padding: 10px;
+}
+form{
+    width: 500px;
+    margin-left: 500px;
+}
+
+.input{
+    width: 100%;
+    margin: 10px;
+}
+.button{
+    color: beige;
+    background-color: black;
+
+}
+.cv{
+    background-color: black;
+    color: azure;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 15%;
+    margin-left: 750px;
+    
+}
